@@ -1,0 +1,131 @@
+{
+  "healthpoint": {
+    "zurich": {
+      "name": "Zurich",
+      "environments": [
+        {
+          "url": "https://elmtest.zurich.ch/elm/admin/actuator/health",
+          "stage": "test",
+          "context": "admin"
+        },
+        {
+          "url": "https://elmtest.zurich.ch/elm/direct/actuator/health",
+          "stage": "test",
+          "context": "direct"
+        },
+        {
+          "url": "https://elmtest.zurich.ch/elm/onboarding/actuator/health",
+          "stage": "test",
+          "context": "onboarding"
+        },
+        {
+          "url": "https://elmtest.zurich.ch/elm/completion/actuator/health",
+          "stage": "test",
+          "context": "completion"
+        },
+        {
+          "url": "https://elm.zurich.ch/elm/admin/actuator/health",
+          "stage": "prod",
+          "context": "admin"
+        },
+        {
+          "url": "https://elm.zurich.ch/elm/direct/actuator/health",
+          "stage": "prod",
+          "context": "direct"
+        },
+        {
+          "url": "https://elm.zurich.ch/elm/onboarding/actuator/health",
+          "stage": "prod",
+          "context": "onboarding"
+        },
+        {
+          "url": "https://elm.zurich.ch/elm/completion/actuator/health",
+          "stage": "prod",
+          "context": "completion"
+        }
+      ],
+      "appinsights": [
+        {
+          "appId": "zurich-app-id",
+          "apikey": "zurich-api-key",
+          "baseurl": "https://appinsights.zurich.ch",
+          "context": "Zurich Application Insights Context"
+        }
+      ]
+    },
+    "branchenversicherung": {
+      "name": "Branchenversicherung",
+      "environments": [
+        {
+          "url": "https://elm-test.branchenversicherung.ch/elm/admin/actuator/health",
+          "stage": "test",
+          "context": "admin"
+        },
+        {
+          "url": "https://elm-test.branchenversicherung.ch/elm/direct/actuator/health",
+          "stage": "test",
+          "context": "direct"
+        },
+        {
+          "url": "https://elm.branchenversicherung.ch/elm/admin/actuator/health",
+          "stage": "prod",
+          "context": "admin"
+        },
+        {
+          "url": "https://elm.branchenversicherung.ch/elm/direct/actuator/health",
+          "stage": "prod",
+          "context": "direct"
+        },
+        {
+          "url": "https://elm.branchenversicherung.ch/elm/completion/actuator/health",
+          "stage": "prod",
+          "context": "completion"
+        }
+      ],
+      "appinsights": [
+      ]
+    },
+    "allianz": {
+      "name": "Allianz",
+      "environments": [
+        {
+          "url": "https://allianz-elm-test.nag.ch/elm/admin/actuator/health",
+          "stage": "test",
+          "context": "admin"
+        },
+        {
+          "url": "https://allianz-elm.nag.ch/elm/admin/actuator/health",
+          "stage": "prod",
+          "context": "admin"
+        },
+        {
+          "url": "https://allianz-elm-test.nag.ch/elm/direct/actuator/health",
+          "stage": "test",
+          "context": "direct"
+        },
+        {
+          "url": "https://secure-test3.allianz.ch/elm/direct/actuator/health",
+          "stage": "test",
+          "context": "direct"
+        },
+        {
+          "url": "https://allianz-elm.nag.ch/elm/direct/actuator/health",
+          "stage": "prod",
+          "context": "direct"
+        },
+        {
+          "url": "https://allianz-elm-test.nag.ch/elm/completion/actuator/health",
+          "stage": "test",
+          "context": "completion"
+        },
+        {
+          "url": "https://allianz-elm.nag.ch/elm/completion/actuator/health",
+          "stage": "prod",
+          "context": "completion"
+        }
+      ],
+      "appinsights": [
+      ]
+    }
+  }
+}
